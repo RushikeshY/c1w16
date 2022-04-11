@@ -9,7 +9,10 @@ const GroceryDetails = ()=>{
  
     return(
         <>
+        <div id="a1">
         <h1 id="h1">Groceries</h1>
+        </div>
+   
         <div className="container">
             {/* map through the data and display the cards */}
            {data.map((item)=>{
