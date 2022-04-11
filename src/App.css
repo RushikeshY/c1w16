@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .App-logo {
@@ -35,4 +36,50 @@
   to {
     transform: rotate(360deg);
   }
+}
+.container{
+  display: grid;  
+  grid-template-columns: repeat(4,1fr);
+  grid-template-rows: repeat(3,470px);
+  
+  gap: 30px;
+}
+#cart11{
+  display: flex;
+}
+.one1{
+  padding-left: 30px;
+}
+.Divitem{
+  padding: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.Divitem>img{
+  height: 140px;
+  width: 140px;
+}
+#q{
+  height: 35px;
+  width: 200px;
+  background-color: rgb(21, 87, 163);
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+.btn{
+  height: 35px;
+  background-color: rgb(172, 37, 7);
+  color: white;
+  width: 30px;
+  margin:2px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.count-item{
+  color: rgb(2, 78, 105);
+}
+#h1{
+  color: red;
 }
